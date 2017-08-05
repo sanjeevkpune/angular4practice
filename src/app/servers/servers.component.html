@@ -1,0 +1,9 @@
+<div class="container">
+
+  <p>
+    servers ID is {{ getServerID() }} and it is {{ getServerStatus() }}<br>
+    Add New Server <button class="btn btn-primary" [disabled]="allowAddServer" (click)="onAddServer()">ADD</button>
+  <br>
+  </p>
+  <p [innerText]="serverCreationStatus"></p> <!-- property binding example-->
+</div>
