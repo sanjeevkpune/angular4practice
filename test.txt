@@ -1,1 +1,0 @@
-This branch is for getting started into the angular4 world along with the TypeScript
